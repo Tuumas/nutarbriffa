@@ -46,7 +46,8 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 65vh; }
+  min-height: 65vh;
+  padding: 5vh 1vh; }
   header nav {
     text-align: right; }
     header nav ul {
