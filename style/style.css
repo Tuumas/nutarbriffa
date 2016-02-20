@@ -46,7 +46,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 60vh; }
+  min-height: 65vh; }
   header nav {
     text-align: right; }
     header nav ul {
@@ -175,6 +175,6 @@ footer {
     display: none; }
 
   header .tagline {
-    padding: 0 3vh; } }
+    padding: 0 6vh 5vh; } }
 
 /*# sourceMappingURL=style.css.map */
