@@ -68,7 +68,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 60vh;
+    min-height: 65vh;
     //  text-align: center;
     nav {
         text-align: right;
@@ -82,6 +82,9 @@ header {
                 padding: 1.5vh 3vh;
                 font-size: 1.25em;
                 cursor: pointer;
+                &.link-button{
+                    margin-left: 3vh;
+                }
             }
         }
     }
@@ -124,8 +127,13 @@ header {
         i{
             border: 3px solid;
             border-radius: 100%;
-            padding: 3vh;
+            padding: 27px;
             width: 120px;
+            // border: 3px solid;
+            // padding: 3vh;
+            // border-radius: 50%;
+            // width: 95px;
+            // height: 95px;
         }
         
         ul{
@@ -273,7 +281,7 @@ footer {
     }
     header{
          .tagline{
-            padding: 0 3vh;
+            padding: 0 6vh 5vh;
         }   
     }
 }
