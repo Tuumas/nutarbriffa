@@ -158,7 +158,7 @@ header {
     section {
         h2 {
             font-size: 2.5em;
-            margin-bottom: 5vh;
+            margin-bottom: 4vh;
             margin-top: 0;
             color: $blue;
             text-align: center;
@@ -166,6 +166,11 @@ header {
         p {
             font-size: 1.25em;
         }
+
+        > p{
+            text-align: center;
+        }
+
         a {
             color: $blue;
             font-weight: 600;
