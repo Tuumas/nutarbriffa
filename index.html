@@ -13,8 +13,6 @@
     <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <!-- Google Maps -->
-    <script src="http://maps.googleapis.com/maps/api/js"></script>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -24,13 +22,15 @@
     <script src="scripts/functions.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    
-      ga('create', 'UA-74045672-1', 'auto');
-      ga('send', 'pageview');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-74045672-1', 'auto');
+        ga('send', 'pageview');
     </script>
 </head>
 
@@ -61,7 +61,7 @@
                 <div class="row">
                     <div class="link-button" id="discover">
                         <a>
-                        Discover More
+                            Discover More
                         </a>
                     </div>
                 </div>
@@ -79,7 +79,8 @@
         <div class="row content services">
             <section class="col-md-10 col-md-offset-1">
                 <h2>Services</h2>
-                <p>Please do not hesitate to <a id="contact-us">contact us</a> should you require information regarding any of the services offered.</p>
+                <p>Please do not hesitate to <a id="contact-us">contact us</a> should you require information regarding
+                    any of the services offered.</p>
                 <div class="col-xs-12 col-md-4 text-center service">
                     <i class="fa fa-users fa-4x"></i>
                     <ul>
@@ -93,7 +94,7 @@
                 </div>
                 <div class="col-xs-12 col-md-4 text-center service">
                     <i class="fa fa-home fa-4x"></i>
-                     <ul>
+                    <ul>
                         <li> Purchases of an Immovable Property </li>
                         <li> Sales of an Immovable Property </li>
                         <li> Leases / Rent </li>
@@ -106,7 +107,7 @@
                 </div>
                 <div class="col-xs-12 col-md-4 text-center service">
                     <i class="fa fa-file-text fa-4x"></i>
-                     <ul>
+                    <ul>
                         <li> Authentication of Documents </li>
                         <li> Authentication of Signatures </li>
                         <li> Affidavits / Power of Attorney </li>
@@ -122,8 +123,10 @@
             <section class="col-md-10 col-md-offset-1">
                 <h2>Fees</h2>
                 <p>
-                    All fees are calculated in accordance to the rates established by the Notarial Council of Malta. The official billing calculator
-                    can be found by clicking <a href="http://www.notariesofmalta.org/members/calculators/bills/" title="Notarial Council - Fee Calculator" target="_blank">here</a>. &nbsp;Searches expenses are not included in this
+                    All fees are calculated in accordance to the rates established by the Notarial Council of Malta.
+                    The official billing calculator
+                    can be found by clicking <a href="http://www.notariesofmalta.org/members/calculators/bills/" title="Notarial Council - Fee Calculator"
+                        target="_blank">here</a>. &nbsp;Searches expenses are not included in this
                     calculation.
                 </p>
             </section>
@@ -143,7 +146,11 @@
                 <div class="row map-row">
 
                     <h3>Mosta Office</h3>
-                    <div class="col-md-6 image map" id="map-one"></div>
+                    <div class="col-md-6 image map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1615.7547511379591!2d14.431353817460414!3d35.9100269982744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDU0JzM2LjEiTiAxNMKwMjUnNTUuMiJF!5e0!3m2!1sen!2sus!4v1540928967985"
+                            width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen>
+                        </iframe>
+                    </div>
                     <div class="col-md-6 description">
                         <div class="row inner">
                             <div class="col-sm-6 col-xs-12 title">
@@ -177,7 +184,11 @@
                 </div>
                 <div class="row map-row">
                     <h3>Siggiewi Office</h3>
-                    <div class="col-md-6 image map" id="map-two"></div>
+                    <div class="col-md-6 image map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d808.8656398582599!2d14.441957829240572!3d35.8589009987596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDUxJzMyLjAiTiAxNMKwMjYnMzMuMCJF!5e0!3m2!1sen!2sus!4v1540929190602"
+                            width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen>
+                        </iframe>
+                    </div>
                     <div class="col-md-6 description">
                         <div class="row inner">
                             <div class="col-sm-6 col-xs-12 title">
